@@ -26,19 +26,17 @@ citation-location: margin
 ::: {.callout-tip icon="false"}
 ## Github Repo Link
 
-To link to your github **repo**sitory, appropriately edit the example link below. Meaning replace `https://your-github-repo-url` with your github repo url. Suggest verifying the link works before submitting.
+ 
 
-[https://your-github-repo-url](https://your-github-repo-url)
+[Alzaharaa's Github Link](https://github.com/stat301-3-2026-spring/l01-review-zaharaaalzaabi.git)
 :::
 
 ## Overview
 
 The goal of this lab is to review machine learning/predictive modeling vocabulary and concepts covered in Data Science 2 with R (STAT 301-2).
 
-## Questions
-
-When completing the following questions ensure your solutions are neatly formatted and clearly indicated. Consider including diagrams/images in some of your solutions, if it helps to make things easier to describe/discuss.
-
+ 
+ 
 ### Question 1
 
 Provide a brief outline/overview of the steps involved in a supervised machine learning process. Could provide this as a bulleted list. 
@@ -190,9 +188,7 @@ Briefly describe how v-fold cross validation with repeats is used to estimate te
 ::: {.callout-tip icon="false"}
 ## Solution
 
-in v-fold cross-validation, the data is split into v equal-sized folds. The model is trained on v − 1 folds and tested on the remaining fold, repeating this process so each fold is used as the test set once. With repeats, the entire process is performed multiple times using different random splits of the data. RMSE is calculated for each test fold across all repeats, and the average of these values is used as an estimate of test RMSE.
-
-We use v-fold cross-validation with repeats because it provides a more reliable and stable estimate of model performance than a single train-test split.  
+in v-fold cross-validation, the data is split into v equal-sized folds. The model is trained on v − 1 folds and tested on the remaining fold, repeating this process so each fold is used as the test set once. With repeats, the entire process is performed multiple times using different random splits of the data. RMSE is calculated for each test fold across all repeats, and the average of these values is used as an estimate of test RMSE. v-fold cross-validation is used with repeats because it provides a more reliable and stable estimate of model performance than a single train-test split.  
 
 :::
 
