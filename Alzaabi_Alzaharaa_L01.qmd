@@ -157,8 +157,8 @@ Describe the bias-variance trade-off when considering the use of a mechanistic o
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Mechanistic → higher bias, lower variance
-Empirical → lower bias, higher variance
+Mechanistic: higher bias, lower variance
+Empirical: lower bias, higher variance
 :::
 
 ### Question 5 
@@ -169,7 +169,7 @@ Explain the difference between a regression and classification machine learning 
 ## Solution
 
 Regression: predicts continuous values and numeric ooutcome   
-Classification: predicts categories (e.g., yes/no)
+Classification: predicts categories.
 :::
 
 ### Question 6 
@@ -179,7 +179,7 @@ When splitting the data, why is it useful to stratify by the outcome/target vari
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Stratifying by the target variable helps keep the same balance of outcomes in both the training and testing sets. This matters most when your data are imbalanced—meaning one class shows up far more often than the others. Without stratification, a random split might leave one set with too few examples of a certain class, which can make a model biased and its evaluation less trustworthy.
 
 :::
 
