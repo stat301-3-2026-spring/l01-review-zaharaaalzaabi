@@ -46,7 +46,15 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+- Define the problem (regression or classification)
+- Clean and prepare the data (handle missing values, check variables)
+- Perform exploratory data analysis (EDA)
+- Split data into training and testing sets
+- Choose an appropriate model
+- Train the model on training data
+- Tune hyperparameters
+- Evaluate and compare models using performance metrics
+- Select and finalize the best model
 
 :::
 
@@ -57,8 +65,7 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+In supervised learning, the data already come with known outcomes, so the model learns the relationship between inputs and outputs to make predictions. In contrast, unsupervised learning works with unlabeled data, finding hidden patterns or grouping similar data points without any predefined results.
 :::
 
 ### Question 3 
@@ -70,8 +77,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+Descriptive models summarize and describe patterns and draw conclusions in existing data 
 :::
 
 #### Inferential Models
@@ -79,8 +85,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+Inferential models draw conclusions about relationships and test hypotheses.
 :::
 
 #### Predictive Models
@@ -88,8 +93,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+Predictive models use data to make predictions about unknown or future outcomes.
 :::
 
 ### Question 4 
@@ -103,8 +107,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+A model built using known scientific or theoretical relationships that explain how a system works.
 :::
 
 #### Part (b)
@@ -114,8 +117,7 @@ What does it mean to be an empirically driven model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+A model built for from observed data, focusing on patterns rather than underlying theory.
 :::
 
 #### Part (c)
@@ -125,8 +127,7 @@ How does the mechanistic and empirically driven model terminology relate to the 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+Mechanistic models are often parametric (fixed form), while empirical models are often nonparametric (more flexible), but they are not exactly the same concept.
 :::
 
 #### Part (d)
@@ -136,8 +137,7 @@ In general, is a mechanistic or empirically driven model easier to interpret? Ex
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+Mechanistic models are generally easier to interpret because they follow known relationships.
 :::
 
 #### Part (e)
@@ -147,8 +147,7 @@ How does mechanistic and empirically driven model terminology relate to the idea
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+Empirical models are more flexible; mechanistic models are more constrained.
 :::
 
 #### Part (f)
@@ -158,8 +157,8 @@ Describe the bias-variance trade-off when considering the use of a mechanistic o
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+Mechanistic → higher bias, lower variance
+Empirical → lower bias, higher variance
 :::
 
 ### Question 5 
@@ -169,8 +168,8 @@ Explain the difference between a regression and classification machine learning 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+Regression: predicts continuous values and numeric ooutcome   
+Classification: predicts categories (e.g., yes/no)
 :::
 
 ### Question 6 
