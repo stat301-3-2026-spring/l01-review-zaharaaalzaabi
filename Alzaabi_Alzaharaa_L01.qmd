@@ -190,7 +190,9 @@ Briefly describe how v-fold cross validation with repeats is used to estimate te
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+in v-fold cross-validation, the data is split into v equal-sized folds. The model is trained on v − 1 folds and tested on the remaining fold, repeating this process so each fold is used as the test set once. With repeats, the entire process is performed multiple times using different random splits of the data. RMSE is calculated for each test fold across all repeats, and the average of these values is used as an estimate of test RMSE.
+
+We use v-fold cross-validation with repeats because it provides a more reliable and stable estimate of model performance than a single train-test split.  
 
 :::
 
@@ -201,7 +203,8 @@ When might we use a bootstrap resampling procedure instead of v-fold cross valid
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A bootsrap resampling is used when the dataset is small or when we want to better estimate the variability and uncertainty of model performance. Bootstrap repeatedly samples with replacement from the data, allowing us to assess how much the RMSE might vary across different samples. T 
+
 
 :::
 
