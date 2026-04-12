@@ -246,6 +246,19 @@ Regression: predicts continuous values and numeric ooutcome
 Classification: predicts categories.
 :::
 
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+4
+
+
+### Explanation
+I was very confident with my answer here, and it was correct, the only thing is that I had a small typo. But generally, I understand the difference between a regression and classification problem.
+:::
+
 ### Question 6 
 
 When splitting the data, why is it useful to stratify by the outcome/target variable? 
@@ -257,6 +270,22 @@ Stratifying by the target variable helps keep the same balance of outcomes in bo
 
 :::
 
+
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+
+### Explanation
+I explained stratification well and connected it to imbalanced data, which I remember from last quarters labs 
+:::
+
+
 ### Question 7 
 
 Briefly describe how v-fold cross validation with repeats is used to estimate test RMSE. Also provide an explanation of why we use it. 
@@ -267,6 +296,20 @@ Briefly describe how v-fold cross validation with repeats is used to estimate te
 in v-fold cross-validation, the data is split into v equal-sized folds. The model is trained on v − 1 folds and tested on the remaining fold, repeating this process so each fold is used as the test set once. With repeats, the entire process is performed multiple times using different random splits of the data. RMSE is calculated for each test fold across all repeats, and the average of these values is used as an estimate of test RMSE. v-fold cross-validation is used with repeats because it provides a more reliable and stable estimate of model performance than a single train-test split.  
 
 :::
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+
+### Explanation
+I felt very confident in my explanation of cross validation and the core idea of the concept. Moreover, I feel like I had a good and clear explanation.
+:::
+
+
 
 ### Question 8
 
@@ -279,6 +322,27 @@ A bootsrap resampling is used when the dataset is small or when we want to bette
 
 
 :::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+4
+
+
+### Explanation
+I had the general idea of bootstrap, but my answer was incomplete and a I had to look it up. I didn’t fully explain how it works or how it’s different from cross-validation.
+
+:::
+
+
+
+
+
+
+
 
 ### Question 9 
 
