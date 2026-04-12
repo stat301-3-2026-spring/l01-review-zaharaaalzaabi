@@ -1,0 +1,273 @@
+ ---
+title: "L01 Review Self Evaluation"
+subtitle: "Data Science 3 with R (STAT 301-3)"
+author: "Alzaharaa Alzaabi"
+pagetitle: "Self Evaluation L01 Review Alzaharaa Alzaabi"
+date: today
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 4
+    toc-location: left
+    embed-resources: true
+    code-fold: false
+    link-external-newwindow: true
+
+execute:
+  warning: false
+
+from: markdown+emoji
+reference-location: margin
+citation-location: margin   
+---
+
+::: {.callout-tip icon="false"}
+## Github Repo Link
+
+ 
+
+[Alzaharaa's Github Link](https://github.com/stat301-3-2026-spring/l01-review-zaharaaalzaabi.git)
+:::
+
+## Overview
+
+The goal of this lab is to review machine learning/predictive modeling vocabulary and concepts covered in Data Science 2 with R (STAT 301-2).
+
+ 
+ 
+### Question 1
+
+Provide a brief outline/overview of the steps involved in a supervised machine learning process. Could provide this as a bulleted list. 
+
+::: {.callout-tip icon="false"}
+## Solution
+
+- Define the problem (regression or classification)
+- Clean and prepare the data (handle missing values, check variables)
+- Perform exploratory data analysis (EDA)
+- Split data into training and testing sets
+- Choose an appropriate model
+- Train the model on training data
+- Tune hyperparameters
+- Evaluate and compare models using performance metrics
+- Select and finalize the best model
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+
+### Explanation
+
+For this question, I was able to recall and outline the steps involved in a supervised machine learning process without having to look at my notes from last quarter or look anything up, which I needed to do for other questions. 
+
+:::
+
+### Question 2
+
+Explain the difference between supervised and unsupervised learning.
+
+::: {.callout-tip icon="false"}
+## Solution
+
+In supervised learning, the data already come with known outcomes, so the model learns the relationship between inputs and outputs to make predictions. In contrast, unsupervised learning works with unlabeled data, finding hidden patterns or grouping similar data points without any predefined results.
+:::
+
+### Question 3 
+
+In general, we can classify a model by its purpose into 1 of the 3 categories below. Provide a brief description of the goals of these model classes.
+
+#### Descriptive Models 
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Descriptive models summarize and describe patterns and draw conclusions in existing data 
+:::
+
+#### Inferential Models
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Inferential models draw conclusions about relationships and test hypotheses.
+:::
+
+#### Predictive Models
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Predictive models use data to make predictions about unknown or future outcomes.
+:::
+
+### Question 4 
+
+We can further describe/classify predictive models by how they were derived or developed as being either mechanistic or empirically driven. 
+
+#### Part (a)
+
+What does it mean to be a mechanistic model?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+A model built using known scientific or theoretical relationships that explain how a system works.
+:::
+
+#### Part (b)
+
+What does it mean to be an empirically driven model?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+A model built for from observed data, focusing on patterns rather than underlying theory.
+:::
+
+#### Part (c)
+
+How does the mechanistic and empirically driven model terminology relate to the parametric and nonparametric model terminology? 
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Mechanistic models are often parametric (fixed form), while empirical models are often nonparametric (more flexible), but they are not exactly the same concept.
+:::
+
+#### Part (d)
+
+In general, is a mechanistic or empirically driven model easier to interpret? Explain.
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Mechanistic models are generally easier to interpret because they follow known relationships.
+:::
+
+#### Part (e)
+
+How does mechanistic and empirically driven model terminology relate to the idea of model flexibility? That is, which would be more or less flexible than the other.
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Empirical models are more flexible; mechanistic models are more constrained.
+:::
+
+#### Part (f)
+
+Describe the bias-variance trade-off when considering the use of a mechanistic or empirically driven model. 
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Mechanistic: higher bias, lower variance
+Empirical: lower bias, higher variance
+:::
+
+### Question 5 
+
+Explain the difference between a regression and classification machine learning (ML) problems.
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Regression: predicts continuous values and numeric ooutcome   
+Classification: predicts categories.
+:::
+
+### Question 6 
+
+When splitting the data, why is it useful to stratify by the outcome/target variable? 
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Stratifying by the target variable helps keep the same balance of outcomes in both the training and testing sets. This matters most when your data are imbalanced—meaning one class shows up far more often than the others. Without stratification, a random split might leave one set with too few examples of a certain class, which can make a model biased and its evaluation less trustworthy.
+
+:::
+
+### Question 7 
+
+Briefly describe how v-fold cross validation with repeats is used to estimate test RMSE. Also provide an explanation of why we use it. 
+
+::: {.callout-tip icon="false"}
+## Solution
+
+in v-fold cross-validation, the data is split into v equal-sized folds. The model is trained on v − 1 folds and tested on the remaining fold, repeating this process so each fold is used as the test set once. With repeats, the entire process is performed multiple times using different random splits of the data. RMSE is calculated for each test fold across all repeats, and the average of these values is used as an estimate of test RMSE. v-fold cross-validation is used with repeats because it provides a more reliable and stable estimate of model performance than a single train-test split.  
+
+:::
+
+### Question 8
+
+When might we use a bootstrap resampling procedure instead of v-fold cross validation to estimate test RMSE?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+A bootsrap resampling is used when the dataset is small or when we want to better estimate the variability and uncertainty of model performance. Bootstrap repeatedly samples with replacement from the data, allowing us to assess how much the RMSE might vary across different samples. T 
+
+
+:::
+
+### Question 9 
+
+Briefly describe model tuning and why we use it.
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Model tuning is selecting the best hyperparameters to improve performance and balance underfitting vs overfitting.
+
+:::
+
+### Question 10 
+
+What are two common performance metrics when dealing with a regression ML problem?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE).
+:::
+
+What are two common performance metrics when dealing with a classification ML problem?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+accuracy and F1 score.
+:::
+
+### Question 11
+
+Classify each question/problem below as either prediction or inferential. Explain your reasoning for each.
+
+A company with a subscription based service (for example Netflix, Disney+, New York Times, etc) has data concerning customer interactions with a them, including features like the number of customer service calls, quality of service calls, subscription length, engagement with the service, discounted service, etc. They are interested in two questions:
+
+1. Does a high number of service calls impact a customer's likelihood of churn in the next month (leave the company/drop the service)?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Inferential problem because the goal is to understand whether there is a relationship between the number of service calls and the likelihood of churn
+:::
+
+2. How likely is it that a customer will churn in the next month (leave the company/drop the service)?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Predictive problem because the goal is to estimate the likelihood that a customer will churn in the next month. Therefore, we are predicting a future outcome for individual customers based on their features, rather than explaining the relationship between variables
+
+:::
+
