@@ -67,8 +67,7 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 
 ### Explanation
 
-For this question, I was able to recall and outline the steps involved in a supervised machine learning process without having to look at my notes from last quarter or look anything up, which I needed to do for other questions. 
-
+I was able to recall the full ML workflow without using my notes, which shows I understand the overall process well. Looking back, I could have been more specific in my answer mentioned concepts like feature engineering or cross-validation 
 :::
 
 ### Question 2
@@ -79,6 +78,21 @@ Explain the difference between supervised and unsupervised learning.
 ## Solution
 
 In supervised learning, the data already come with known outcomes, so the model learns the relationship between inputs and outputs to make predictions. In contrast, unsupervised learning works with unlabeled data, finding hidden patterns or grouping similar data points without any predefined results.
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+
+### Explanation
+
+I understood the difference between supervised and unsupervised learning as we did go over it in class prior to th the assignment. Moreover, my explanation was clear, but I could’ve added an example to make it stronger.
+
 :::
 
 ### Question 3 
@@ -108,6 +122,27 @@ Inferential models draw conclusions about relationships and test hypotheses.
 
 Predictive models use data to make predictions about unknown or future outcomes.
 :::
+
+
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+4
+
+
+### Explanation
+I got all three model types correct, but I had to think a bit more carefully about the differences. My answers were right but a little brief. I think I understand the concepts, but I should explain them more clearly, I also had to look up the differences again to double check my answers.
+
+:::
+
+
+
+
+
 
 ### Question 4 
 
@@ -173,6 +208,32 @@ Describe the bias-variance trade-off when considering the use of a mechanistic o
 Mechanistic: higher bias, lower variance
 Empirical: lower bias, higher variance
 :::
+
+
+
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+4
+
+
+### Explanation
+I understood the differences between mechanistic and empirical models, hich were the core concepts, however, some of my explanations were a bit too short and could have used more reasoning reasoning, specifically when reasoning why something is true.
+
+:::
+ 
+ 
+
+
+
+
+
+
+
 
 ### Question 5 
 
