@@ -426,3 +426,15 @@ Predictive problem because the goal is to estimate the likelihood that a custome
 
 :::
 
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+
+### Explanation
+I was very confident in my answer here, as I correctl identified both problems and explained my reasoning clearly.
+:::
